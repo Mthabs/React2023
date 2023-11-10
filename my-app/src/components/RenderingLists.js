@@ -5,7 +5,7 @@ function RenderingLists() {
     const bookList = [
         'to kill a mockingbird',
         'the great gatsby',
-        'the catcher in the eye'
+        'the catcher in the rye'
     ]
 
     const books = [
@@ -20,7 +20,7 @@ function RenderingLists() {
             pages: 218
         },
         {
-            title:'the catcher in the eye',
+            title:'the catcher in the rye',
             author: 'j. d. salinger',
             pages: 234
         }
@@ -28,6 +28,7 @@ function RenderingLists() {
     ]
   return (
     <div>
+        <h1>Book Lists</h1>
         {
             bookList.map(book=>{
                 return <h2 key={book}>{book}</h2>
