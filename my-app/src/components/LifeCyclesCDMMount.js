@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react';
 import LifeCyclesCDMChildMount from './LifeCyclesCDMChildMount'
 
 export class LifeCyclesCDMMount extends Component {
@@ -33,4 +33,4 @@ export class LifeCyclesCDMMount extends Component {
   }
 }
 
-export default LifeCyclesCDMChildMount
+export default LifeCyclesCDMMount
