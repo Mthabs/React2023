@@ -4,11 +4,13 @@ import Clock from "./components/Clock";
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import ConditionalRenderingClassNested from './components/ConditionalRenderingClassNested';
 import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import ControlledForms from "./components/ControlledForms";
 import EventsClass from './components/EventsClass';
 import EventsFunctional from './components/EventsFunctional';
 import FunctionalGreetingWithProps from "./components/FunctionalGreetingWithProps";
 import LifeCyclesCDMMount from "./components/LifeCyclesCDMMount";
 import LifeCyclesCDUUpdate from "./components/LifeCyclesCDUUpdate";
+import LifeCyclesCWUUnmount from "./components/LifeCyclesCWUUnmount";
 import RenderingLists from "./components/RenderingLists";
 import StatefulGreetingBindingBindThis from './components/StatefulGreetingBindingBindThis';
 import StatefulGreetingBindingConstructor from './components/StatefulGreetingBindingConstructor';
@@ -26,6 +28,8 @@ function App() {
             <hr/>
             <ConditionalRenderingFunctional connected = {true}/>
             <hr/>
+            <ControlledForms/>
+            <hr/>
             <EventsClass />
             <EventsFunctional />
             <hr/>
@@ -34,6 +38,8 @@ function App() {
             <LifeCyclesCDMMount/>
             <hr/>
             <LifeCyclesCDUUpdate/>
+            <hr/>
+            <LifeCyclesCWUUnmount/>
             <hr/>
             <RenderingLists/>
             <hr/>
