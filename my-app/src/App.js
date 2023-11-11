@@ -5,6 +5,7 @@ import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import ConditionalRenderingClassNested from './components/ConditionalRenderingClassNested';
 import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 import ControlledForms from "./components/ControlledForms";
+import UncontrolledForms from "./components/UncontrolledForms ";
 import EventsClass from './components/EventsClass';
 import EventsFunctional from './components/EventsFunctional';
 import FunctionalGreetingWithProps from "./components/FunctionalGreetingWithProps";
@@ -16,6 +17,7 @@ import StatefulGreetingBindingBindThis from './components/StatefulGreetingBindin
 import StatefulGreetingBindingConstructor from './components/StatefulGreetingBindingConstructor';
 import StatefulGreetingBindingDefine from './components/StatefulGreetingBindingDefine';
 import StatefulGreetingRender from "./components/StatefulGreetingRender";
+import searchbar1 from "./components/searchbar1";
 
 function App() {
     return (
@@ -29,6 +31,7 @@ function App() {
             <ConditionalRenderingFunctional connected = {true}/>
             <hr/>
             <ControlledForms/>
+            <UncontrolledForms/>
             <hr/>
             <EventsClass />
             <EventsFunctional />
@@ -50,7 +53,8 @@ function App() {
             <StatefulGreetingBindingDefine name="John!" greeting="How are you doing?" />
             <hr/>
             <StatefulGreetingRender name="John!" greeting="How are you doing?" />
-            
+            <hr/>
+            <searchbar1/>
         </div>
     );
 }
