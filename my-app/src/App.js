@@ -17,7 +17,9 @@ import StatefulGreetingBindingBindThis from './components/StatefulGreetingBindin
 import StatefulGreetingBindingConstructor from './components/StatefulGreetingBindingConstructor';
 import StatefulGreetingBindingDefine from './components/StatefulGreetingBindingDefine';
 import StatefulGreetingRender from "./components/StatefulGreetingRender";
-import searchbar1 from "./components/searchbar1";
+import SearchBar1 from "./components/SearchBar1";
+import SearchBar2 from "./components/SearchBar2";
+import SearchBar3 from "./components/SearchBar3";
 
 function App() {
     return (
@@ -54,7 +56,9 @@ function App() {
             <hr/>
             <StatefulGreetingRender name="John!" greeting="How are you doing?" />
             <hr/>
-            <searchbar1/>
+            <SearchBar1/>
+            <SearchBar2/>
+            <SearchBar3/>
         </div>
     );
 }
