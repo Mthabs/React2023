@@ -7,6 +7,7 @@ import ConditionalRenderingFunctional from './components/ConditionalRenderingFun
 import EventsClass from './components/EventsClass';
 import EventsFunctional from './components/EventsFunctional';
 import FunctionalGreetingWithProps from "./components/FunctionalGreetingWithProps";
+import LifeCyclesCDM from "./components/LifeCyclesCDM";
 import RenderingLists from "./components/RenderingLists";
 import StatefulGreetingBindingBindThis from './components/StatefulGreetingBindingBindThis';
 import StatefulGreetingBindingConstructor from './components/StatefulGreetingBindingConstructor';
@@ -28,6 +29,8 @@ function App() {
             <EventsFunctional />
             <hr/>
             <FunctionalGreetingWithProps greeting="Nice to meet you!!!" name="Mike!" age="32" />
+            <hr/>
+            <LifeCyclesCDM/>
             <hr/>
             <RenderingLists/>
             <hr/>

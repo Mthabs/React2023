@@ -4,18 +4,18 @@ class Clock extends React.Component {
   constructor(props) {
     super(props);
     this.state = {date: new Date()};
-    console.log('constructor')
+   // console.log('constructor')
   }
   componentDidMount() {
     this.timerID = setInterval(() => this.tick(), 1000);
-    console.log('componentDidMount')
+    // console.log('componentDidMount')
   }
   componentDidUpdate() {
     // console.log('componentDidUpdate')
   }
   componentWillUnmount() {
     clearInterval(this.timerID);
-    console.log('componentWillUnmount')
+    // console.log('componentWillUnmount')
   }
   tick() {
     this.setState({
@@ -24,7 +24,7 @@ class Clock extends React.Component {
     // console.log('tick!')
   }
   render() {
-    console.log('render')
+    // console.log('render')
     return (
       <div>
         <h1>Hello, world!</h1>
