@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 import HTTPRequests from "./components/HTTPRequests";
 import HTTPPost from "./components/HTTPPost";
+import HTTPHooks from "./components/HTTPHooks";
 import Clock from "./components/Clock";
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import ConditionalRenderingClassNested from './components/ConditionalRenderingClassNested';
@@ -35,6 +36,8 @@ function App() {
             <HTTPRequests/>
             <hr/>
             <HTTPPost />
+            <hr/>
+            <HTTPHooks/>
             <hr/>
             <Clock/>
             <hr/>
