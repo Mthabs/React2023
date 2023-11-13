@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import HTTPRequests from "./components/HTTPRequests";
 import Clock from "./components/Clock";
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import ConditionalRenderingClassNested from './components/ConditionalRenderingClassNested';
@@ -30,6 +31,8 @@ import UseEffectCounterCleanupHooks from "./components/UseEffectCounterCleanupHo
 function App() {
     return (
         <div className="App">
+            <HTTPRequests/>
+            <hr/>
             <Clock/>
             <hr/>
             <ConditionalRenderingClass />
