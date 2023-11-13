@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import HTTPRequests from "./components/HTTPRequests";
+import HTTPPost from "./components/HTTPPost";
 import Clock from "./components/Clock";
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import ConditionalRenderingClassNested from './components/ConditionalRenderingClassNested';
@@ -32,6 +33,8 @@ function App() {
     return (
         <div className="App">
             <HTTPRequests/>
+            <hr/>
+            <HTTPPost />
             <hr/>
             <Clock/>
             <hr/>
