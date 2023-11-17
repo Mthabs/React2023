@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 import HTTPRequests from "./components/HTTPRequests";
 import HTTPPost from "./components/HTTPPost";
 import HTTPHooks from "./components/HTTPHooks";
@@ -11,6 +12,7 @@ import ControlledForms from "./components/ControlledForms";
 import UncontrolledForms from "./components/UncontrolledForms ";
 import EventsClass from './components/EventsClass';
 import EventsFunctional from './components/EventsFunctional';
+import FunctionalGreeting from "./components/FunctionalGreeting";
 import FunctionalGreetingWithProps from "./components/FunctionalGreetingWithProps";
 import LifeCyclesCDMMount from "./components/LifeCyclesCDMMount";
 import LifeCyclesCDUUpdate from "./components/LifeCyclesCDUUpdate";
@@ -33,6 +35,7 @@ import UseEffectCounterCleanupHooks from "./components/UseEffectCounterCleanupHo
 function App() {
     return (
         <div className="App">
+            <MethodsAsPropsParent/>
             <HTTPRequests/>
             <hr/>
             <HTTPPost />
@@ -62,6 +65,8 @@ function App() {
             <hr/>
             <EventsClass />
             <EventsFunctional />
+            <hr/>
+            <FunctionalGreeting/>
             <hr/>
             <FunctionalGreetingWithProps greeting="Nice to meet you!!!" name="Mike!" age="32" />
             <hr/>
